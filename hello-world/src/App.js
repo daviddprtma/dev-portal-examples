@@ -82,6 +82,7 @@ export default class App extends React.Component {
                 gasLimit: Long.fromNumber(10000),
             }
         );
+        console.log("Transaction ID: " + callTx.ID);
   
     } catch (err) {
         console.log(err);
